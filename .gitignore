@@ -121,6 +121,8 @@ draft/
 *.pkl
 *.csv
 
+*.gitignore
+
 #pdf and txt files
 *.pdf
 *.txt
