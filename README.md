@@ -25,6 +25,6 @@ Credit Card Fraud Detection:
 
 # Computer Vision (DL)
 
+- [Face Detection](https://github.com/LouisonR/ML-notebook/blob/master/Computer-Vision/Face-Detection.ipynb)
 - [Object Detection]
-- [Face Detection]
 - [San-Francisco Forecast]
