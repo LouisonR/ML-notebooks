@@ -8,14 +8,23 @@ Machine Learning Notebooks:
 - [CO2 Emissions]
 
 
-# Anomaly Detection
+# Machine Learning
 
-Credit Card Fraud Detection:
+## ML Supervised: Regression
+
+[Sendy Logistics Challenge :](https://zindi.africa/competitions/sendy-logistics-challenge)
+
+- [Main Data preparation]
+- [Data preparation - Riders dataframe]
+- [Machine Learning models & RMSE metric]
+
+## ML Unsupervised: Anomaly Detection (Classification)
+
+[Credit Card Fraud Detection :](https://www.kaggle.com/mlg-ulb/creditcardfraud)
 
 - [Data preparation](https://github.com/LouisonR/ML-notebook/blob/master/Anomaly%20detection/1-Data_preparation.ipynb)
 - [Machine Learning models & ROC AUC metric](https://github.com/LouisonR/ML-notebook/blob/master/Anomaly%20detection/2-ML_models.ipynb)
 - [Business case: Gain($) metric](https://github.com/LouisonR/ML-notebook/blob/master/Anomaly%20detection/3-Gain_metric.ipynb)
-
 
 
 # NLP
@@ -23,7 +32,7 @@ Credit Card Fraud Detection:
 - [Quora Insincere Questions Classification](https://github.com/LouisonR/ML-notebook/blob/master/NLP/Quora.ipynb)
 
 
-# Computer Vision (DL)
+# Deep Learning: Computer Vision
 
 - [Face Detection](https://github.com/LouisonR/ML-notebook/blob/master/Computer-Vision/Face-Detection.ipynb)
 - [Object Detection]
