@@ -28,7 +28,7 @@ Machine Learning Notebooks:
 
 ## Natural Language Processing: Classification
 
-[Quora Insincere Questions Classification](https://www.kaggle.com/c/quora-insincere-questions-classification)
+[Quora Insincere Questions Classification :](https://www.kaggle.com/c/quora-insincere-questions-classification)
 
 - [Data preparation & ML models](https://github.com/LouisonR/ML-notebook/blob/master/Quora/Quora.ipynb)
 
