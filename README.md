@@ -18,7 +18,7 @@ Machine Learning Notebooks:
 - [Data preparation - Riders dataframe](https://github.com/LouisonR/ML-notebooks/blob/master/Sendy-Logistic/Zindi_riders.ipynb)
 - [Machine Learning models & RMSE metric](https://github.com/LouisonR/ML-notebooks/blob/master/Sendy-Logistic/Zindi_ML_models.ipynb)
 
-## ML Unsupervised: Anomaly Detection (Classification)
+## ML Unsupervised: Classification
 
 [Credit Card Fraud Detection :](https://www.kaggle.com/mlg-ulb/creditcardfraud)
 
@@ -26,7 +26,7 @@ Machine Learning Notebooks:
 - [Machine Learning models & ROC AUC metric](https://github.com/LouisonR/ML-notebook/blob/master/Anomaly%20detection/2-ML_models.ipynb)
 - [Business case: Gain($) metric](https://github.com/LouisonR/ML-notebook/blob/master/Anomaly%20detection/3-Gain_metric.ipynb)
 
-## Natural Language Processing
+## Natural Language Processing: Classification
 
 - [Quora Insincere Questions Classification](https://github.com/LouisonR/ML-notebook/blob/master/NLP/Quora.ipynb)
 
