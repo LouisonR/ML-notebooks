@@ -1,13 +1,3 @@
-Machine Learning Notebooks:
-
-
-# Data Analysis
-
-- [Airbnb Visualization]
-- [Bike Sharing]
-- [CO2 Emissions]
-
-
 # Machine Learning
 
 ## ML Supervised: Regression
@@ -38,3 +28,8 @@ Machine Learning Notebooks:
 - [Face Detection](https://github.com/LouisonR/ML-notebook/blob/master/Computer-Vision/Face-Detection.ipynb)
 - [Object Detection]
 - [San-Francisco Forecast]
+
+
+# Others: Tutorials
+
+- [How to deploy a Chatbot on Messenger](https://github.com/LouisonR/ML-notebook/blob/master/Chatbot/Chatbot-Messenger.ipynb)
