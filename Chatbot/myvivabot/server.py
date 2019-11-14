@@ -1,13 +1,12 @@
 from flask import Flask, request
 from server_aux import verify_webhook, is_user_message, respond
-from bot.core import vivabot, greetings_inputs, greetings_answers, tf_idf, vectorizer, df
 
 Callback_URL = "https://vivabot.serveo.net/webhook"
 
 FB_API_URL = 'https://graph.facebook.com/v2.6/me/messages'
 VERIFY_TOKEN = 'vd_bot'# <paste your verify token here>
-#PAGE_ACCESS_TOKEN = "EAAG82LfAveIBAJZASKwq2oJ0ZA8ndbOf2o6FpAkxZAvGmqi0PERk1LIITBiYmU8c9sbv4c3Y3gm2ZAUEAGbm9J6p77pb99DvvWq2gn3zyo1ILjUJJpWFrwTjjUfbodR6ZCFoZC1UU5tfYM2ZATt162DxS91LOq26tiwJU9kZCsy4WgZDZD"
-PAGE_ACCESS_TOKEN = "EAAGX4WEYd2oBADFfNdH5zZBky7aYIKB6YV8oz4eYQn57QBcZCoWZBs6YcWZBrn48dWTr7JzcYHEV4iV4XVkwZBZAE2jZBfjRYXVb0MPlnD0ISTEXP410j0gZCAa8rhLldCtlXDJKcFZBreJ5NbJWGkg8fEYxihTwS1lj03evdVGqZA1QZDZD"
+PAGE_ACCESS_TOKEN = "EAAG82LfAveIBAEQgZCglfP5GRcZBzV8ikuWOxd4caznvNqUoI6AUYh3tr1WovvATeNQRlJqZBpOArLu4JIOwLnO3vrunZALjyo9YzZCsH7YCh4uqi2DEB74EsZCiSluc9Y8jtQhhZBv2ZAHwGrsH2lpNpGSZAJFAwfvO4SLZBjyAmvJwZDZD"
+
 app = Flask(__name__)
 
 
@@ -43,8 +42,9 @@ def test():
 
 
 # route to check the feedback of a specific query:
-#https://vivabot.serveo.net/test_query?query=qu'est ce qu'un chatbot
+#https://vivabot.serveo.net/test_query?query=hello
 @app.route("/test_query")
 def test_query():
+    sender_id = "admin"
     query = request.args.get('query', default = "", type = str)
-    return vivabot(query, greetings_inputs, greetings_answers, tf_idf, vectorizer, df)
+    return respond(sender_id, query, FB_API_URL, PAGE_ACCESS_TOKEN)
