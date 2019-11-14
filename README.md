@@ -23,7 +23,9 @@
 - [Data preparation & ML models](https://github.com/LouisonR/ML-notebook/blob/master/Quora/Quora.ipynb)
 
 
-# Deep Learning: Computer Vision
+# Deep Learning:
+
+## Computer Vision
 
 - [Face Detection](https://github.com/LouisonR/ML-notebook/blob/master/Computer-Vision/Face-Detection.ipynb)
 - [Object Detection]
