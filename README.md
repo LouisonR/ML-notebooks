@@ -32,4 +32,4 @@
 
 # Others: Tutorials
 
-- [How to deploy a Chatbot on Messenger](https://github.com/LouisonR/ML-notebook/blob/master/Chatbot/Chatbot-Messenger.ipynb)
+- [How to deploy a Chatbot on Messenger](https://github.com/LouisonR/ML-notebooks/blob/master/Chatbot/ChatBot%20-%20Messenger.ipynb)
