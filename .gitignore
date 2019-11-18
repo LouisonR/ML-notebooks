@@ -126,3 +126,13 @@ draft/
 #pdf and txt files
 *.pdf
 *.txt
+
+
+#Quora challenge:
+Quora/draft
+
+#Sendy challenge folder to exclude:
+Sendy-Logistic/to_submit
+Sendy-Logistic/data
+Sendy-Logistic/jupyter_draft
+Sendy-Logistic/catboost_info
